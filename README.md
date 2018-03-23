@@ -15,5 +15,5 @@ my-test-host | SUCCESS => {
 Script generates following groups:
 
 - `vscale` - all available hosts
-- `vscale_location_${LOCATION}` - hosts in `${LOCATION}` location
-- `vscale_tag_${TAGNAME}` - hosts tagged as `${TAGNAME}`
+- `vscale_location_${LOC}` - hosts in `${LOC}` location, e.g. `vscale_location_spb0`
+- `vscale_tag_${TAG}` - hosts tagged as `${TAG}`, e.g. `vscale_tag_frontend`
