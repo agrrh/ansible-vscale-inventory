@@ -11,3 +11,9 @@ my-test-host | SUCCESS => {
     "ping": "pong"
 }
 ```
+
+Script generates following groups:
+
+- `vscale` - all available hosts
+- `vscale_location_${LOCATION}` - hosts in `${LOCATION}` location
+- `vscale_tag_${TAGNAME}` - hosts tagged as `${TAGNAME}`
